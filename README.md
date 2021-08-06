@@ -62,7 +62,7 @@ Create or using the virtual environment:
 ```
 poetry shell
 ```
-(You can also use regular `source .venv/bin/activate`.)
+(You can also use regular `source .venv/bin/activate` if you have an existing .venv.)
 
 You install the dependencies using:
 ```
