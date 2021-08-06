@@ -97,7 +97,6 @@ Add structlog
 
 ```
 poetry add structlog
-poetry install
 ```
 
 ## Testing
@@ -105,8 +104,7 @@ poetry install
 Add pytest
 
 ```
-poetry add pytest
-poetry install
+poetry add pytest -D
 ```
 
 Discover tests via the command palette, enable the pytest test framework and select the directory containing the tests (`tests`).
