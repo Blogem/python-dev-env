@@ -10,6 +10,7 @@ Install the following extensions:
 
 Optional:
 - A Python docstring generator
+- Azure Functions
 
 Enable settings sync (command palette (`shift + command + P`) &#8594; settings sync).
 
@@ -45,11 +46,12 @@ You can now either create a new project folder:
 poetry new python-dev-env
 ```
 
-Or initialize an existing directory (beware: this only creates the `pyproject.toml`, but does not create the directory structure and such):
+Or initialize an existing directory:
 ```
 cd python-dev-env
 poetry init
 ```
+This only creates the `pyproject.toml`, but does not create the directory structure and such. Useful for projects that won't be packaged and only require dependency management.
 
 Adding new dependencies can be done by directly editing `pyproject.toml` or with the following command:
 ```
@@ -90,14 +92,6 @@ Go to the VS code settings (`command + ,`), search for `python.linting` and enab
 - pydocstyle (checking docstring)
 
 Search for `python.formatting` and select `black` as the provider. Run `format document` on a script and install when prompted.
-
-## Logging
-
-Add structlog
-
-```
-poetry add structlog
-```
 
 ## Testing
 
