@@ -93,6 +93,10 @@ Go to the VS code settings (`command + ,`), search for `python.linting` and enab
 
 Search for `python.formatting` and select `black` as the provider. Run `format document` on a script and install when prompted.
 
+## Security
+
+TODO: add bandit and safety for static code scanning
+
 ## Testing
 
 Add pytest
